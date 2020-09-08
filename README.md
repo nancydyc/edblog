@@ -1,7 +1,9 @@
 # edblog
 Django Project
 
-### Set up and activate a virtual environment in Windows
+### Set up and activate a virtual environment in Windows/Bash using Python3
+
+py -m venv env
 
 source env/Scripts/activate
 
