@@ -16,7 +16,7 @@ virtualenv env
 
 source env/bin/activate
 
-### Install Django and create a project folder
+### Install Django and create an edblog project folder
 
 python -m django --version
 (my version is 3.0.8)
@@ -25,7 +25,7 @@ django-admin startproject < edblog >
 
 Note: _startproject_ will create a folder containing __init__.py, settings.py, urls.py and wsgi.py for you.
 
-### Create the app for the project and run the server at port 8000
+### Create the blog app and run the server at port 8000
 python manage.py startapp < blog >
 
 cd edblog
