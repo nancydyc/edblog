@@ -33,3 +33,20 @@ cd edblog
 python manage.py runserver
 
 Note: Open the browser and go to localhost:8000/admin, you'll see the admin login page running successfully.
+
+### Create a superuser for admin login
+In edblog directory, run the following commands:
+
+python manage.py makemigrations
+
+python manage.py migrate
+
+python manage.py createsuperuser
+
+(If it doesn't prompt you to create username and password, run-- 
+
+   _winpty python manage.py createsuperuser_)
+   
+ You'll be able to enter a username, email address and password (twice) for the super user.
+ 
+ Note: Now, navigate to local host:8000/admin, you can login with the username and password you just created and have a tour for Django site administration. 
